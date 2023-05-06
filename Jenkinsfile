@@ -21,15 +21,10 @@ pipeline {
                 
             }
         }
-        stage('Test') {
+        
+        stage('deploy') {
             steps {
-                echo 'Test'
-               
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploy'
+                echo 'deploy'
                 
             }
         }
